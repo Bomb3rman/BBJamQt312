@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/game/main.qml</file>
+        <file>qml/game/MiniBox.qml</file>
+        <file>qml/game/Wall.qml</file>
+        <file>qml/game/ball.png</file>
+        <file>qml/game/Ball.qml</file>
+    </qresource>
+</RCC>

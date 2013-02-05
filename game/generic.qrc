@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/game/Sensors.qml</file>
+        <file>qml/game/Highscore.qml</file>
+    </qresource>
+</RCC>

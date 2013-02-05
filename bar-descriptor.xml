@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<qnx xmlns="http://www.qnx.com/schemas/application/1.0">
+    <id>com.example.test12</id>
+    <name>The Game</name>
+    <versionNumber>1.0.0</versionNumber>
+    <description>This is a cool game</description>
+    <initialWindow>
+        <aspectRatio>portrait</aspectRatio>
+        <autoOrients>false</autoOrients>
+        <systemChrome>none</systemChrome>
+        <transparent>false</transparent>
+    </initialWindow>
+    <env value="app/native/imports:/usr/lib/qt4/imports" var="QML_IMPORT_PATH"/>
+    <env value="app/native/plugins:/usr/lib/qt4/plugins" var="QT_PLUGIN_PATH"/>
+    <env value="app/native/lib:/usr/lib/qt4/lib/" var="LD_LIBRARY_PATH"/>
+    <action system="true">run_native</action>
+    <asset entry="true" type="Qnx/Elf" path="game/game">game</asset>
+    <asset path="imports">imports</asset>
+    <asset path="/home/fabian/emea/Final/icon.png">icon.png</asset>
+    <icon>
+        <image>icon.png</image>
+    </icon>
+</qnx>
